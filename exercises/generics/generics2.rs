@@ -6,10 +6,11 @@
 // Execute `rustlings hint generics2` or use the `hint` watch subcommand for a
 // hint.
 
+// 泛型定义
 struct Wrapper<T> {
     value: T,
 }
-
+// 泛型实现
 impl<T> Wrapper<T> {
     pub fn new(value: T) -> Self {
         Wrapper { value }
