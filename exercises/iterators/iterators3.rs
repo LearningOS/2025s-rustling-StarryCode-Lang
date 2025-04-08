@@ -13,8 +13,8 @@
 
 #[derive(Debug, PartialEq, Eq)]
 pub enum DivisionError {
-    NotDivisible(NotDivisibleError),
-    DivideByZero,
+    NotDivisible(NotDivisibleError), // 不能整除
+    DivideByZero,                    // 除数为0
 }
 
 #[derive(Debug, PartialEq, Eq)]
